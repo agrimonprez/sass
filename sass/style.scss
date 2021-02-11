@@ -1,0 +1,30 @@
+$primary: red;
+
+// Configuration
+@import "./boostrap/functions";
+@import "./boostrap/variables";
+@import "./boostrap/mixins";
+@import "./boostrap/utilities";
+
+// Layout & components
+@import "./boostrap/root";
+@import "./boostrap/reboot";
+@import "./boostrap/type";
+@import "./boostrap/buttons";
+
+@import "./carousel.scss";
+
+
+.bd-placeholder-img {
+font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
